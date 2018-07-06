@@ -1,0 +1,90 @@
+  /* #ffc107 gold */
+  /* #66CCCC; aqua */
+  /* #E35152; pink */
+
+p {
+  font-size: 1.5em;
+  font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  font-size: 2.5em;
+  color: #66CCCC;
+  font-family: "Libre Baskerville", sans-serif;
+}
+h2 {
+  font-size: 2.25em;
+  color: #E35152;;
+}
+h3 {
+  color: green;
+}
+p {
+    padding-top: 0px ;
+  }
+img.displayed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto 
+}
+li {
+  font-size: 1.5em;
+}
+.topnav {
+  background-color: #ffc107;
+  overflow: hidden;
+  font-size: 1.5em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #66CCCC;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.05em;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #66CCCC;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+  }
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px ;
+  font-size: .9em;
+  font-family: 'Open Sans', sans-serif;
+  overflow: auto;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.echo {
+  border: 1px solid gray;
+  padding: 10px;
+}
+.animal {
+  border: 1px solid #ffc107;
+  border-radius: 1%;
+  padding: 10px;
+  margin: 10px;
+}
