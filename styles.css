@@ -5,6 +5,8 @@
 p {
   font-size: 1.5em;
   font-family: 'Open Sans', sans-serif;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 h1 {
   font-size: 2.5em;
@@ -12,6 +14,7 @@ h1 {
   font-family: "Libre Baskerville", sans-serif;
 }
 h2 {
+  margin-top: 0px;
   font-size: 2.25em;
   color: #E35152;;
 }
@@ -29,17 +32,54 @@ img.displayed {
 li {
   font-size: 1.5em;
 }
+footer {
+  text-align: center;
+  background: #ffc107;
+}
+
+footer, p {
+  margin: 0;
+}
+hr {
+  overflow: visible; /* For IE */
+  height: 30px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+hr:before { /* Not really supposed to work, but does */
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: black;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
+a {
+  color: #197777;
+}
+a:hover {
+  color: #E35152;
+}
+.container {
+  margin: 10px;
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+}
 .topnav {
   background-color: #ffc107;
   overflow: hidden;
   font-size: 1.5em;
   font-family: 'Open Sans', sans-serif;
 }
-
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #66CCCC;
+  color: #197777;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -57,7 +97,9 @@ li {
   background-color: #66CCCC;
   color: white;
 }
-
+.intropics{
+  margin-bottom: 20px;
+}
 * {
   box-sizing: border-box;
   }
@@ -70,6 +112,7 @@ li {
   font-size: .9em;
   font-family: 'Open Sans', sans-serif;
   overflow: auto;
+  margin-top: 0px;
 }
 
 /* Clear floats after the columns */
@@ -87,4 +130,11 @@ li {
   border-radius: 1%;
   padding: 10px;
   margin: 10px;
+}
+.glossary {
+  color: #E35152;
+  font-size: 1.75em;
+}
+.gallery {
+  width: 30%;
 }
