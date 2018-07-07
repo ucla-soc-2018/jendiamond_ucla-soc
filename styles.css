@@ -131,9 +131,21 @@ a:hover {
   padding: 10px;
   margin: 10px;
 }
-.glossary {
+.glossaryword {
   color: #E35152;
   font-size: 1.75em;
+}
+.glossarydefinitionaqua {
+  background-color: #f2f7f7;
+  padding: 15px;
+  line-height: 1.25em;
+  margin-bottom: 10px;
+}
+.glossarydefinitiongreen {
+  background-color: #F0FFF0;
+  padding: 15px;
+  line-height: 1.25em;
+  margin-bottom: 10px;
 }
 .gallery {
   width: 30%;
