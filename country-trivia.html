@@ -2,13 +2,41 @@
 <html>
   <head>
   <title>Project: Country Trivia</title>
+      <link rel="stylesheet" type="text/css" href="normalise.css">
   <style>
-  #main
-  {
-    margin:0px auto;
-    border:2px solid black;
-    width:400px;
-  }
+    /*  http://www.december.com/html/spec/color3.html*/
+    body {
+      background-image: url("https://www.homemart.co.nz/pub/media/catalog/product/cache/image/800x600/e9c3970ab036de70892d86c6d221abfe/e/7/e788d0e5-d800-ea11-24f2-456eb088d44d-12189.jpeg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    body,html {
+      height: 100%; 
+    }
+    h2.country {
+      color: #507786; /* LCD dark */
+      text-size: 5em;
+    }
+    h3.country {
+      color: #607B8B; /*light skyblue4*/
+      text-size: 3em;
+    }
+    td {
+      color: ;
+      text-size: 1em;
+    }
+    #main
+    {
+      margin:0px auto;
+      border:1px solid #507786;
+      width:600px;
+      background-color: white;
+      margin-top: 100px;
+    }
+    table {
+      margin-bottom: 20px;
+    }
   </style>
   <script type="text/javascript">
     function displayDetails()
@@ -103,11 +131,12 @@
       }
     }
   </script>
+  <link rel="stylesheet" type="text/css" href="reset.css">
   </head>
   <body>
   <div id="main">
-    <h2 align="center">Country Trivia</h2>
-    <h3 align="center">Select a Country Below</h3>
+    <h2 align="center" class='country'>Country Trivia</h2>
+    <h3 align="center" class='country'>Select a Country Below</h3>
     <table align="center">
       <tr><td>Country:</td><td>
         <select id="countries" onchange="displayDetails();">

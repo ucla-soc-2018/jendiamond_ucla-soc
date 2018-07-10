@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <script type="text/javascript">
+      var students = [
+      {name: 'Lee', age: 14, favoriteAnimal: 'cat'}, 
+      {name: 'Leila', age: 12, favoriteAnimal: 'lion'},
+      {name: 'Brandon', age: 14, favoriteAnimal: 'lion'},
+      {name: 'Jeremy', age: 12, favoriteAnimal: 'cat'},
+      {name: 'Jimmy', age: 13, favoriteAnimal: 'snake'}, 
+      {name: 'Joshie', age: 13, favoriteAnimal: 'cheetah'},
+      {name: 'Billy', age: 13, favoriteAnimal: 'lion'},
+      {name: 'Willian', age: 12, favoriteAnimal: 'panda'},
+      {name: 'Tom', age: 13, favoriteAnimal: 'dog'},
+      {name: 'Jordan', age: 12, favoriteAnimal: 'eagle'},
+      ]
+
+    var s = function getStudents(){
+      students.map(function(student){
+      });
+    }
+
+    function getStudents(){
+      var studentArr = [];
+      students.forEach(function(student){
+        studentArr.push(`  ${student.name} is ${student.age} and likes ${student.favoriteAnimal}'s.`);
+      });
+      return studentArr;
+    }
+      function displayStudents(){
+        document.getElementById("student").innerHTML = getStudents()[2];
+
+      }
+    </script>
+  </head>
+  <body  onload="displayStudents();">
+    <h1 id="student"></h1>
+  </body>
+</html>

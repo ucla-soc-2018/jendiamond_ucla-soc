@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Word Rainbow</title>
+<!--https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById -->
+    <style type="text/css">
+      p {
+        font-size: 1.05em;
+        font-weight: bold;
+      }
+    .button1 {
+      background-color: red;
+      border: none;
+      color: white;
+      padding: 5px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 2em;
+      border-radius: 20px;
+    }
+    .button2 {
+      background-color: orange;
+      border: none;
+      color: white;
+      padding: 5px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 2em;
+      border-radius: 20px;
+    }
+    .button3 {
+      background-color: #FFD700;
+      border: none;
+      color: white;
+      padding: 5px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 2em;
+      border-radius: 20px;
+    }
+    .button4 {
+      background-color: #4CAF50; /* Green */
+      border: none;
+      color: white;
+      padding: 5px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 2em;
+      border-radius: 20px;
+    }
+    .button5 {
+      background-color: blue;
+      border: none;
+      color: white;
+      padding: 5px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 2em;
+      border-radius: 20px;
+    }
+    .button6 {
+      background-color: indigo;
+      border: none;
+      color: white;
+      padding: 5px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 2em;
+      border-radius: 20px;
+    }
+    .button7 {
+      background-color: violet;
+      border: none;
+      color: white;
+      padding: 5px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 2em;
+      border-radius: 20px;
+    }
+    </style>
+    <script type="text/javascript">
+      function changeColor1(newColor) {
+        var elem = document.getElementById('paragraph1');
+        elem.style.color = newColor;
+      }
+      function changeColor2(newColor) {
+        var elem = document.getElementById('paragraph2');
+        elem.style.color = newColor;
+      }
+      function changeColor3(newColor) {
+        var elem = document.getElementById('paragraph3');
+        elem.style.color = newColor;
+      }
+      function changeColor4(newColor) {
+        var elem = document.getElementById('paragraph4');
+        elem.style.color = newColor;
+      }
+      function changeColor5(newColor) {
+        var elem = document.getElementById('paragraph5');
+        elem.style.color = newColor;
+      }
+      function changeColor6(newColor) {
+        var elem = document.getElementById('paragraph6');
+        elem.style.color = newColor;
+      }
+      function changeColor7(newColor) {
+        var elem = document.getElementById('paragraph7');
+        elem.style.color = newColor;
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Word Rainbow</h1>
+    <button onclick="changeColor1('red');" class="button1">red</button>
+    <button onclick="changeColor2('orange');" class="button2">orange</button>
+    <button onclick="changeColor3('#FFD700');" class="button3">yellow</button>
+    <button onclick="changeColor4('green');" class="button4">green</button>
+    <button onclick="changeColor5('blue');" class="button5">blue</button>
+    <button onclick="changeColor6('indigo');" class="button6">indigo</button>
+    <button onclick="changeColor7('violet');" class="button7">violet</button>
+
+    <p id="paragraph1">Oat cake ice cream toffee dessert chocolate gingerbread. Chupa chups pastry chocolate cake gingerbread brownie cotton candy. Muffin tootsie roll cookie candy marzipan dessert jelly. Jelly beans cake icing jelly-o chocolate bar. Biscuit gingerbread bear claw apple pie. Lollipop icing tiramisu.</p>
+    <p id="paragraph2">Bacon ipsum dolor amet tongue turkey spare ribs ground round ham hock bresaola porchetta capicola kevin beef pancetta burgdoggen. Swine tenderloin pancetta pig drumstick. Meatball tongue cupim fatback capicola.</p>
+    <p id="paragraph3">Bulbasaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ivysaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Venusaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Charmander Lorem ipsum</p>
+    <p id="paragraph4">Halloumi fondue fondue. Stinking bishop macaroni cheese when the cheese comes out everybody's happy cheesy grin cottage cheese mascarpone cheese and biscuits cheese and biscuits. Bavarian bergkase ricotta edam fondue fromage frais red leicester smelly cheese st. agur blue cheese. Manchego cheese on toast brie dolcelatte cauliflower cheese dolcelatte airedale.</p>
+    <p id="paragraph5">火所座在態下很空情土然，爸而腦我：處上年風別證張而嚴，發太引，來服道，和風小我……的子帶、高開這得頭些心，作小山定起？球生小一：心物何就了自北星深告助化都。小海了響道件任……取海心怎話回法紙了八實同統觀先義就曾氣認分海中太最行力國不天教情理。</p>
+    <p id="paragraph6">Driving gloves gunslinger walrus super mario sam elliott, elit super mario gunslinger walrus karl marx casual style sam elliott marquess of queensbury charming villain driving gloves, elit groomed pit fighter Refined gentlemen hungarian karl marx gunslinger charming villain walrus by jingo.</p>
+    <p id="paragraph7">Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</p>
+  </body>
+</html>
