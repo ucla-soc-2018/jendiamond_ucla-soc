@@ -16,22 +16,22 @@ https://github.com/joshuashsid/Joshie_ucla-soc/tree/gh-pages
 
 Jimmy  
 https://jimmy811.github.io/jimmyqian_ucla_soc/  
-https://github.com/Jimmy811/jimmyqian_ucla_soc  
+https://github.com/Jimmy811/jimmyqian_ucla_soc/tree/gh-pages   
 
 William   
 https://thewiliamjin.github.io/william_uclasoc  
-https://github.com/thewiliamjin/william_uclasoc  
+https://github.com/thewiliamjin/william_uclasoc/tree/gh-pages   
 
 Brandon
 https://guacamolelover14.github.io/brandon_ucla-soc/  
-https://github.com/guacamolelover14/brandon_ucla-soc  
+https://github.com/guacamolelover14/brandon_ucla-soc/tree/gh-pages   
 
 Jeremy
 https://Ratonhnhaketon16.github.io/jeremy-ucla-soc  
-https://github.com/Ratonhnhaketon16/jeremy-ucla-soc   
+https://github.com/Ratonhnhaketon16/jeremy-ucla-soc/tree/gh-pages    
 
 Lee
 https://zlwLEE.github.io/lee-ucla-soc
-https://github.com/zlwLEE/lee-ucla-soc  
+https://github.com/zlwLEE/lee-ucla-soc/tree/gh-pages   
 
 Billy
