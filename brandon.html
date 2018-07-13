@@ -3,9 +3,8 @@
   <head>
     <title>Happy Birthday Brandon</title>
     <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <style>
       h1 {
         font-family: 'Sofia';
@@ -18,20 +17,15 @@
   </head>
 
   <body>
-    <!-- Navbar -->
-    <div class="topnav">
-      <a href="index.html">Jen Diamond UCLA-SOC</a>
-      <a href="gallery.html">Gallery</a>
-      <a href="favoriteAnimals.html">Favorite Animals</a>
-      <a class="active" href="brandon.html">Brandon's Birthday</a>
-      <a href="glossary.html">Glossary</a>
-      <a href="about.html">About</a>
-      <a href="country-trivia.html">Country Trivia</a>
-      <a href="digital-clock.html">Digital Clock</a>
-      <a href="quote.html">Quote</a>
-      <a href="game.html">Game</a>
-      <a href="student_sites.html">Student Sites</a>
-    </div>
+    <!--Navigation bar-->
+    <div id="nav-placeholder"></div>    
+
+    <script>
+    $(function(){
+      $("#nav-placeholder").load("nav.html");
+    });
+    </script>
+    <!--end of Navigation bar-->
 
     <div class="container">
       <div style="text-align: center">
