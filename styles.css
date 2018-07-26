@@ -19,7 +19,7 @@ h2 {
   color: #E35152;;
 }
 h3 {
-  color: green;
+  color: blue;
 }
 p {
     padding-top: 0px ;
@@ -27,7 +27,7 @@ p {
 img.displayed {
   display: block;
   margin-left: auto;
-  margin-right: auto 
+  margin-right: auto
 }
 li {
   font-size: 1.5em;
@@ -74,7 +74,7 @@ a:hover {
   padding: 10px;
 }
 .topnav {
-  background-color: #ffc107;
+  background-color: #ffc108;
   overflow: hidden;
   font-size: 1.5em;
   font-family: 'Open Sans', sans-serif;
@@ -106,7 +106,6 @@ a:hover {
 * {
   box-sizing: border-box;
   }
-
 /* Create three equal columns that floats next to each other */
 .column {
   float: left;
